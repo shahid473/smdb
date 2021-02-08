@@ -1,0 +1,57 @@
+
+
+
+footer{
+
+    background-color:#032541;
+}
+
+footer .row{
+    padding: 20px 50px 50px 50px;
+}
+
+
+
+
+.logo-name{
+    text-align: right;
+
+}
+
+.logo-name h2{
+    font-family: fantasy;
+    letter-spacing: 6px;
+    color: lightgoldenrodyellow;
+
+}
+
+
+
+
+
+
+.logo-name a{
+    color: #01b4e4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .col-md-2 {
+    padding: 20px 2px;
+    
+}
+footer .col-md-2:nth-child(2){
+    padding-top: 0px;
+}
+
+footer .col-md-2 h3{
+    font-weight: 800;
+    font-size: 1.2em;
+    font-family: "Source Sans Pro", Arial, Bangla196, sans-serif;
+}
+footer .col-md-2 a.d-block{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16.28px;
+}

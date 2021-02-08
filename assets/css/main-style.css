@@ -1,0 +1,678 @@
+
+body{
+    overflow-x: hidden;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+body * {
+    box-sizing: border-box;
+}
+
+
+
+/* Container holding the image and the text */
+.img-container {
+    position: relative;
+    background-image: url(../img/front-img2.png);
+    height: 300px;
+    width: 95%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    
+    top: 22%;
+    
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 100%;
+  }
+
+  .text-block div h2,h3{
+      font-family: 'Source Sans Pro', Arial, sans-serif;
+      font-weight: 600;
+      
+  }
+
+
+  .text-block .search-style{
+      height: 47px ;
+      border-radius: 50px !important;
+      border: none;
+      padding: 0 2rem;
+      
+  }
+  
+
+.text-block .btn-design{
+    position: absolute;
+    right: -1px;
+    z-index: 3;
+    height: 47px;
+    padding: .375rem 1.5rem;
+
+    color: #ffffff;
+
+    
+background: linear-gradient(90deg, rgb(0 233 132) 1%, rgba(0,189,155,1) 54%, rgba(2,181,158,1) 100%);
+    border: none;
+    border-radius: 35px;
+    font-weight: 600;
+  
+  
+}
+
+
+
+
+
+
+
+/* -----------------------Bootstrap Movie Card Styles ------------------- */
+
+
+
+div.popular-div{
+    max-width: 1240px !important;
+}
+
+
+
+
+div.myClass {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+div.myClass [class*="span"] {
+    display: inline-block;
+    float: none; /* Very important */
+}
+
+/* Test purposes */
+.myClass .span5 { 
+    margin: 5px 6px 2px 6px;
+    min-height: 50px; 
+    padding: 0;
+
+}
+
+.myClass .span5 a{
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+div.myClass {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.myClass div.container-fluid{
+    margin-top: 80px;
+}
+
+.myClass .row{
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 77px;
+    
+}
+.myClass .row div{
+    width: 150px;
+    /* height: 225px; */
+    
+}
+.myClass .row div .popular-img{
+    height: 225px;
+    border-radius: 5px;
+}
+.myClass .row div .cast-img{
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+/* --------------XXXXXX--------Bootstrap Movie Card Styles ----------XXXX----------------------------- */
+
+  
+/* ----------------Latest Trailers Card---------------- */
+
+
+div.trailer-div{
+    max-width: 1240px !important;
+    background-image: url(../img/front-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+div.myClass1 {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+div.myClass1 [class*="span"] {
+    display: inline-block;
+    float: none; /* Very important */
+}
+
+/* Test purposes */
+.myClass1 .span5 { 
+    margin: 5px 6px 2px 6px;
+    min-height: 50px; 
+    padding: 0;
+
+}
+
+.myClass1 .span5 a{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+div.myClass1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.myClass1 div.container-fluid{
+    margin-top: 80px;
+}
+
+.myClass1 .row{
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 20px;
+    
+}
+.myClass1 .row div{
+    width: 300px;
+    height: calc(300px / 1.78)
+    
+}
+.myClass1 .row div img{
+    display: block;
+    border-radius: 5px;
+}
+
+
+
+div.play{
+    width: 300px;
+    height: calc(300px / 1.78);
+    position: inherit;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+.glyphicons_v2:hover{
+transform: scale(0.7);
+    transition: all .2s ease-in-out;}
+
+.glyphicons_v2 {
+    position: relative;
+    left: -150px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+
+
+/* --------XX--------Latest Trailers Card-----------XX----- */
+
+
+
+/* ---------------------Subscription Box---------------- */
+
+.subcription-box{
+    background-image: url(../img/subcription-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.subcription-box .col-md-7 h2{
+    font-weight: 800;
+}
+.subcription-box .col-md-7 a{
+    font-weight: 600;
+    color: white;
+    background-color: #805BE7;
+
+}
+/* --------XX-------------Subscription Box------XX---------- */
+
+/* ---------------- Responsiveness Design of Homepage ---------- */
+
+@media only screen and (max-width: 768px) {
+    .img-container{
+        height: 210px;
+    width: auto;
+    }
+
+    .text-block{
+        top: 2%;
+    }
+
+    .text-block .search-style{
+        height: 37px;
+    }
+    .text-block .btn-design{
+        height: 37px;
+    }
+}
+
+
+
+/* @media only screen and (max-width: 1200px){
+div.popular-div{
+    max-width: 1240px !important;
+}
+} */
+/* -------XXXXX--------- Responsiveness Design of Homepage ----XXX------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================                                 ======================================== */
+/* =========================================                                 ======================================== */
+                                            /* Contact Page */
+/* =========================================                                 ======================================== */
+/* =========================================                                 ======================================== */
+
+
+
+.contact-slider{
+    background-image: url(../img/spider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+    background-position-x: center;
+    
+}
+
+.contact-slider .container{
+    background-color: #000000f2;
+    position: relative;
+}
+
+.slider-layout .card h2{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .slider-layout{
+        height: 300px;
+    }
+    .contact-slider{
+        height: 300px;
+        margin-bottom: 220px;
+    }
+
+    .slider-layout .card h2{
+        font-weight: 700;
+        font-size: 30px;
+    
+    }
+}
+
+
+
+/* ==================XX=======================                                 =====================XX=================== */
+/* =========================================                                 ======================================== */
+                                            /* Contact Page*/
+/* =========================================                                 ======================================== */
+/* ==================XX=======================                                 ========================XX================ */
+
+
+
+/* ========================================                                 ====================================== */
+/* =========================================                                 ======================================== */
+                                            /* Login Page DesignContact Page */
+/* =========================================                                 ======================================== */
+/* =======================================                                 ====================================== */
+
+
+
+
+.mainform{
+    border: 0px solid rgb(216 216 216);
+    border-left: 4px solid #032541;
+    border-radius: 3px;
+    box-shadow: 0 0 10px -5px black;
+    
+}
+.mainform a{
+    text-decoration: none;
+}
+
+
+div.sign-opt-facebook{
+    background-image: linear-gradient(120deg, #0d7aff 0%, #08aeff 100%);
+    
+    
+}
+div.sign-opt-twitter{
+    background-image: linear-gradient(120deg, #00aeff 0%, #35bdff 100%);
+    
+}
+div.sign-opt-apple{
+    
+    background-image: linear-gradient(120deg, #111111 0%, #373737 100%);
+}
+
+
+
+
+
+
+
+
+
+
+/* ==================XX=======================                                 =====================XX=================== */
+/* =========================================                                 ======================================== */
+/* Login Page DesignContact Page */
+/* =========================================                                 ======================================== */
+/* ==================XX=======================                                 ========================XX================ */
+
+
+
+
+
+/* ========================================                                 ====================================== */
+/* =========================================                                 ======================================== */
+                                            /* About Us Page */
+/* =========================================                                 ======================================== */
+/* =======================================                                 ====================================== */
+
+.about-slider{
+    background-image: url(../img/Background.png);
+    height:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+
+.about-slider h2{
+    position: relative;
+    top: 15%;
+    font-family: serif;
+    left: 0;
+    font-size: 124px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+
+}
+.about-slider2{
+    background-image: url(../img/spider-tran.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    height: 390px;
+    background-position-x: center;
+    position: relative;
+    top: -108px;
+}
+
+
+
+.cus-color{
+    background-color: #0d0029;
+    box-shadow: 2px 0 51px 115px #0d0029;
+}
+
+
+.cus-color .row .card-body p{
+    text-align: center;
+    font-size: 16px;
+    width: 56%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.cus-color .card-body h3{
+    font-size: 50px;
+}
+
+
+
+
+/* ----------------------Responsiveness---------------------------- */
+
+@media only screen and (max-width: 768px){
+
+    .about-slider h2{
+            top:19%;
+        font-size: 40px;
+    }
+
+    .about-slider2{
+        background-size: contain;
+        top: -21px;
+        height: 207px;
+    }
+
+
+    .cus-color .card-body h3{
+        font-size: 30px;
+    }
+
+}
+
+/* -----------X-----------Responsiveness------------X---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================                                 ====================================== */
+/* =========================================                                 ======================================== */
+                                            /* Aboutus Page */
+/* =========================================                                 ======================================== */
+/* =======================================                                 ====================================== */

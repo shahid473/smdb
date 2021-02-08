@@ -1,0 +1,262 @@
+
+
+
+
+/* ----------International CSS-------- */
+
+
+.btn:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+.display-hide{
+    display: none;
+}
+
+
+#show-list1, #show-list2, #show-list3, #show-list4, #show-list5, #show-list6, #show-list7, #show-list8, #show-list9, #show-list10, #show-list11   {
+    display: none;
+}
+
+
+
+
+
+
+
+/* -----------Disable arrow of dropdown and open links on hover--------- */
+
+.dropdown-toggle::after { 
+    content: none; 
+}
+
+
+
+.dropdown:hover .menuu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+
+/* ------XX-----Disable arrow of dropdown and open links on hover-------XX-- */
+
+
+
+
+/* --------------------------------------------Side Nav Menu---------------- */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 8%; /* Stay at the top */
+    left: 0;
+    background-color: #032541f2; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+/* ------------------XXXXX--------------------------Side Nav Menu--------------XXXXXXXXXX---------------- */
+
+
+
+nav.cust-style1 {
+    height: 64px;
+    background-color: #032541;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.fs-6{
+    font-size: 12px !important;
+}
+
+
+nav button.navbar-toggler {
+    padding: 0;
+    font-size: 0.9rem;
+    
+    
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    
+}
+nav button.navbar-toggler:focus {
+    
+    box-shadow: none;
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #7fc5ff;
+    font-size: 2.0rem;
+    font-family: fantasy;
+    letter-spacing: 3px;
+}
+
+
+nav .display-hide .fa-search {
+    color: aqua;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+
+
+form.search-ico .btn b a {
+
+text-decoration: none;
+}
+
+form.search-ico .fa-search{
+    font-size: 22px;
+    color: #ff75e6;
+}
+
+
+.close-btn{
+    position: relative;
+    bottom: 32px;
+    right: -95%;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+
+#show-search{
+    display: none;
+}
+
+
+
+
+/* ---------------------Searchbar CSS-------------------- */
+
+
+
+/* -----------XXXXX----------Searchbar CSS-------XXXXX------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------Responsiveness------------ */
+
+@media only screen and (max-width: 768px) {
+    nav.cust-style1 {
+        height: auto;
+    }
+
+    .display-hide{
+        display: block;
+    }
+
+
+    .navbar-dark .navbar-brand {
+       
+        font-size: 1.0rem;
+        
+    }
+
+  }

@@ -1,0 +1,569 @@
+div.container.movie-card{
+    max-width: 1240px;
+}
+
+
+
+.container.movie-card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.container.movie-card .card{
+    box-shadow: 0 2px 16px 7px #e7e7e7;
+}
+
+
+
+
+.filter{
+    /* min-width: 100%;
+    padding: 7px 7px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px; */
+    box-shadow: 0 0 6px -3px #302f2f;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+
+.container.movie-card .card .card-body{
+    padding: 0.4rem 0.4rem;
+}
+.container.movie-card .card .card-body .card-title{
+    font-size: 12px;
+    display: block;
+}
+.container.movie-card .card .card-body .card-text{
+    font-size: 12px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================                                 ======================================== */
+/* =========================================                                 ======================================== */
+                                            /* Single Movie Page Design */
+/* =========================================                                 ======================================== */
+/* =========================================                                 ======================================== */
+
+
+
+div.main-section{
+ background-image: url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/8knaRrDd1FM1pbSLaViEQSxodi5.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding-left: 0px;
+    padding-right: 0px;
+ 
+}
+
+
+div.sub-section{
+    background-image: linear-gradient(to right, rgba(3.53%, 4.31%, 15.29%, 1.00) 150px, rgba(3.53%, 4.31%, 15.29%, 0.84) 100%);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.movie-nav ul li{
+    display: inline-block;
+}
+
+
+
+div.movie-nav ul li a{
+    color: black;
+    font-weight: 300;
+}
+
+
+div.movie-nav .col-3{
+        margin: 0 40px;
+}
+
+
+
+
+.sub-section .col-md-8 h2 a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.sub-section .col-md-8 h3 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.sub-section .col-4 .card{
+    background-color: transparent;
+}
+.sub-section .col-4 .card img{
+    border-radius: 8px;
+}
+
+
+a.list-icon{
+    padding: 10px 13px;
+    margin: 5px 8px;
+    background-color: rgb(0, 15, 128);
+    color: white;
+    border-radius: 80px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.movie-info p strong{
+    display: block;
+    font-weight: 600;
+}
+
+.movie-info ul.networks li{
+    display: flex;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.movie-info ul.networks li a{
+    display: block;
+    font-weight: 600;
+}
+
+.movie-info ul.networks li a img{
+    display: block;
+    vertical-align: baseline;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.movie-info div.keywords ul li {
+    display: inline-block;
+    
+}
+.movie-info div.keywords ul li a{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+    padding: 2px 10px;
+    background-color: rgb(235, 235, 235);
+    margin: 2px;
+    border-radius: 3px;
+    border: 0.3px solid rgb(220, 220, 220);
+    font-size: 12px;
+}
+
+
+.current-season a{
+    text-decoration: none;
+    color: black;
+}
+
+.current-season .card-body:first-child p{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------Responsiveness------- */
+@media only screen and (max-width: 1000px) {
+
+
+.movie-nav ul li a{
+    font-size: 12px;
+    padding: auto 0px;
+}
+
+
+}
+@media only screen and (max-width: 768px) {
+
+
+.movie-nav ul li a{
+    font-size: 8px;
+    padding: auto 0px;
+}
+
+.sub-section .col-8 h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    .sub-section .col-8 h2 a{ font-size: 13px;
+    }
+
+}
+/* ---X----Responsiveness------X- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================XX=======================                                 ====================XX==================== */
+/* =========================================                                 ======================================== */
+                                            /* Single Movie Page Design */
+/* =================XX========================                                 =======================XX================= */
+/* =========================================                                 ======================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
